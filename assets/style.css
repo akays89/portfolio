@@ -16,9 +16,10 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-position: center;
-    color: rgb(3, 42, 77);
     text-align: center;
     background-image: url();
+    background-color:rgb(0, 0, 0);
+    color: whitesmoke;
     
     
 }
@@ -32,7 +33,7 @@ header h1 {
   }
 
   a:-webkit-any-link {
-    color: -webkit-link;
+    color: whitesmoke;
     cursor: pointer;
     text-decoration: underline;
 }
@@ -63,5 +64,100 @@ nav a {
   background-image: url(.//chris-ried-ieic5Tq8YMk-unsplash.jpg);
   background-position: center;
 }
+.hero-banner div h2 img {
+  border-radius: 80px;
+}
+
+
+.page-section > h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 5vw;
+    border-right: none;
+}
 
   
+
+.flex-item {
+  background-color:none;
+  color: whitesmoke;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  font-size: 1.0rem;
+  padding: 0px 0px 20px;
+  margin: 0.5em;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+
+@media screen and (max-width: 980px) {
+
+   .page-section > h2, .page-section > div{
+      flex: 0 0 100%;}
+  }
+
+
+
+.page-section > h2, .page-section > div {
+    flex: 0 0 100%;
+}
+
+.page-section > div {
+    flex: 0 0 77%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 25px 0px;
+  padding: 10px 0px;
+  background-color: black;
+  color: whitesmoke;
+}
+section {
+  display: block;
+}
+.calender {
+ background-image: url(behnam-norouzi-QlGQFKUm4lE-unsplash.jpg) ;
+ background-position: center;
+}
+
+.led-wall {
+  background-image: url(./vlad-tchompalov-UOWAsztvBa0-unsplash.jpg);
+  background-position: center;
+}
+ 
+.calc {
+  background-image: url(./kelly-sikkema-3-Tc_5LROrM-unsplash.jpg);
+  background-position: center;
+}
+.clothing-site{
+  background-image: url(./hannah-morgan-ycVFts5Ma4s-unsplash.jpg);
+  background-position: center;
+
+}
+
+.pizza{
+  background-image: url(./foad-roshan-A23ZWXZ-Qhs-unsplash.jpg);
+  background-position: center;
+}
