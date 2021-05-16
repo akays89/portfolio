@@ -18,7 +18,7 @@ header {
     background-position: center;
     text-align: center;
     background-image: url();
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(252, 204, 212);
     color: whitesmoke;
     
     
@@ -36,10 +36,12 @@ header h1 {
     color: whitesmoke;
     cursor: pointer;
     text-decoration: underline;
+    
+    
 }
  
 nav a {
-    color: var(--secondary);
+    color: whitesmoke;
     margin-right: 7px;
     background-size: 100% 0.2em;
     font-size: 2.0rem;
@@ -55,17 +57,19 @@ nav a {
 .hero-banner {
   background-blend-mode: soft-light;
   min-height: 60vh;
-  color: whitesmoke;
+  color: pink;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
   padding: 2% 6%;
-  background-image: url(.//chris-ried-ieic5Tq8YMk-unsplash.jpg);
+  background-image: url(./pastelKeyboard.png);
   background-position: center;
+  background-repeat: no-repeat;
 }
 .hero-banner div h2 img {
-  border-radius: 80px;
+  border-radius: 100px;
+  
 }
 
 
@@ -98,15 +102,11 @@ nav a {
 
 @media screen and (max-width: 980px) {
 
-   .page-section > h2, .page-section > div{
-      flex: 0 0 100%;}
-  }
+  .page-section > h2, .page-section > div{
+      flex: 0 0 100%;}}
+  
 
-
-
-.page-section > h2, .page-section > div {
-    flex: 0 0 100%;
-}
+      
 
 .page-section > div {
     flex: 0 0 77%;
@@ -116,8 +116,11 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     
 }
+
+
 .page-wrapper {
   max-width: 88%;
   margin-left: auto;
@@ -131,7 +134,7 @@ nav a {
   justify-content: space-between;
   margin: 25px 0px;
   padding: 10px 0px;
-  background-color: black;
+  background-color: rgb(252, 204, 212);
   color: whitesmoke;
 }
 section {
@@ -143,7 +146,7 @@ section {
 }
 
 .led-wall {
-  background-image: url(./vlad-tchompalov-UOWAsztvBa0-unsplash.jpg);
+  background-image: url(./pinkLED.jpg);
   background-position: center;
 }
  
@@ -152,12 +155,12 @@ section {
   background-position: center;
 }
 .clothing-site{
-  background-image: url(./hannah-morgan-ycVFts5Ma4s-unsplash.jpg);
+  background-image: url(./whiteClothes.jpg);
   background-position: center;
 
 }
 
 .pizza{
-  background-image: url(./foad-roshan-A23ZWXZ-Qhs-unsplash.jpg);
+  background-image: url(./pizzaSign.jpg);
   background-position: center;
 }
