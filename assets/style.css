@@ -19,7 +19,7 @@ header {
     text-align: center;
     background-image: url();
     background-color:rgb(252, 204, 212);
-    color: whitesmoke;
+    color: black;
     
     
 }
@@ -33,7 +33,7 @@ header h1 {
   }
 
   a:-webkit-any-link {
-    color: whitesmoke;
+    color: black;
     cursor: pointer;
     text-decoration: underline;
     
@@ -41,7 +41,7 @@ header h1 {
 }
  
 nav a {
-    color: whitesmoke;
+    color: black;
     margin-right: 7px;
     background-size: 100% 0.2em;
     font-size: 2.0rem;
@@ -57,7 +57,7 @@ nav a {
 .hero-banner {
   background-blend-mode: soft-light;
   min-height: 60vh;
-  color: pink;
+  color: black;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -85,7 +85,7 @@ nav a {
 
 .flex-item {
   background-color:none;
-  color: whitesmoke;
+  color: black;
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
@@ -135,28 +135,29 @@ nav a {
   margin: 25px 0px;
   padding: 10px 0px;
   background-color: rgb(252, 204, 212);
-  color: whitesmoke;
+  color: black;
 }
 section {
   display: block;
 }
-.calender {
- background-image: url(behnam-norouzi-QlGQFKUm4lE-unsplash.jpg) ;
- background-position: center;
+.weatherGif {
+ background-image: url(./WeatherGif.png) ;
+
 }
 
-.led-wall {
-  background-image: url(./pinkLED.jpg);
+.quiz-game {
+  background-image: url(./code\ quiz.png);
   background-position: center;
 }
  
-.calc {
-  background-image: url(./kelly-sikkema-3-Tc_5LROrM-unsplash.jpg);
+.schedule {
+  background-image: url(./sched.png);
   background-position: center;
 }
 .clothing-site{
   background-image: url(./whiteClothes.jpg);
   background-position: center;
+
 
 }
 
